@@ -122,7 +122,9 @@ export default function Home() {
             {shortenedUrl}
           </code>
           
+        
           <ActionButton 
+          // https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/writeText
             onClick={() => navigator.clipboard.writeText(shortenedUrl)}
           >
             COPY_TO_CLIPBOARD
