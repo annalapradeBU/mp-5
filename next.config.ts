@@ -5,9 +5,9 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
 
   /* to get rid of an error i had :/ */
-  experimental: {
+ compiler: {
     styledComponents: true,
-  } as any,
+  },
 };
 
 export default nextConfig;
