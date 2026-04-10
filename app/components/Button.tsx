@@ -19,6 +19,7 @@ export const ActionButton = styled.button`
   font-family: monospace;
   text-transform: uppercase; /* make everything uppercase to look more "tech-y"? idk man, im trying stuff out*/
   transition: all 0.1s ease;
+  font-size: calc(2px + 1.5vw);
 
   /* learned in another class, makes it look "lit up" when hovering over it :) */
   &:hover {
